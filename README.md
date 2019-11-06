@@ -5,6 +5,7 @@ Place inventory labels into table
 Needed programs: barcode, pdflatex + czech, epstopdf
 
 Instalation in virtualenv:
+
 	python3 -m venv venv
 	. venv/bin/activate
 	pip install -r requirements.txt
