@@ -1,0 +1,20 @@
+\documentclass[a4]{article}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage[margin=10mm, includehead]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\VAR{place}}
+\rhead{\thepage}
+\begin{document}
+\includegraphics[height=20mm]{temp/place_bc}\\
+\begin{longtable}{|c|c|c|}\hline
+  \BLOCK{ for it in items }
+  \VAR{it[0]}&\VAR{it[2]}&\includegraphics[height=10mm]{temp/\VAR{it[1]|replace("/","_")}}\\\hline
+  \BLOCK{ endfor }
+\end{longtable}
+\end{document}

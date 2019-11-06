@@ -1,0 +1,3 @@
+Room - 81B1234/K
+inventory item 1 - 533/33 - placement of item 1
+inventory item 2 - 52/356 - placement of item 2
